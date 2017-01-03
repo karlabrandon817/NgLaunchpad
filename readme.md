@@ -12,11 +12,11 @@ In this guide we'll set up a very simple client-side page that will use AngularJ
 
 Steps:
 ------
-[x] download AngularJS (1.5)
-[x] set up basic project JS
-[x] set up basic project HTML
-[x] our first 2-way bind
-[x] our first ng-click
-[x] add an array that holds all the movies that have been input on button click
-[x] console log out that array
-[x] research ng-repeat and see if you can get that info on the DOM
+[x] download AngularJS (1.5)<br>
+[x] set up basic project JS<br>
+[x] set up basic project HTML<br>
+[x] our first 2-way bind<br>
+[x] our first ng-click<br>
+[x] add an array that holds all the movies that have been input on button click<br>
+[x] console log out that array<br>
+[x] research ng-repeat and see if you can get that info on the DOM<br>
