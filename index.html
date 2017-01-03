@@ -10,8 +10,13 @@
     <div ng-controller='LaunchpadControler'>
       <h1>NG Launchpad</h1>
       What's your favorite movie? <input type="text" name="name" value="" ng-model='movieName'>
-      <p>Your favorite movie is: {{ movieName }}</p>
+      <p>Your favorite movies are:</p>
+      <ul>
+        <li ng-repeat="x in myMovies">
+          {{x}}
+        </li>
+      </ul>
       <button ng-click='getMovieName()'>Get Movie Name</button>
-    </div>
+</div>
   </body>
 </html>
