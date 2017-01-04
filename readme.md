@@ -20,3 +20,5 @@ Steps:
 [x] add an array that holds all the movies that have been input on button click<br>
 [x] console log out that array<br>
 [x] research ng-repeat and see if you can get that info on the DOM<br>
+[x] extend this to create an array of objects instead of just strings
+[x] wanna try showing/hiding something? look into ng-show and ng-hide
