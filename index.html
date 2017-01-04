@@ -14,8 +14,8 @@
       <button ng-click='getMovieName()'>Add Movie</button>
       <p>
       Display Movies: <input type='checkbox' ng-model="myVar">
-      <ul ng-show="myVar">
-        <li ng-repeat="x in myMovies">
+      <ul ng-show='myVar'>
+        <li ng-repeat="x in myMovies" >
           {{x.movie}} ({{x.year}})
         </li>
       </ul>
