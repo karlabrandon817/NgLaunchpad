@@ -8,6 +8,7 @@ Technologies
 
 Overview
 --------
+First attempt at Angular1...
 In this guide we'll set up a very simple client-side page that will use AngularJS. You'll need familiarity with HTML, and JS.
 
 Steps:
