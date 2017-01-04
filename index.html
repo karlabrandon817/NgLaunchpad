@@ -9,7 +9,7 @@
   <body ng-app='myApp'>
     <div ng-controller='LaunchpadController'>
       <h1>NG Launchpad</h1>
-      What's your favorite movie? <input type="text" ng-model='movieName'>
+      What's your favorite movie? <input id="movieIn" type="text" ng-model='movieName'>
       Year Released: <input type="text" ng-model='movieYear'>
       <button ng-click='getMovieName()'>Add Movie</button>
       <p>

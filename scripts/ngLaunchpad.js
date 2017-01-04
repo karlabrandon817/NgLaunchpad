@@ -7,8 +7,9 @@ myApp.controller('LaunchpadController', ['$scope', function($scope){
       movie: $scope.movieName,
       year: $scope.movieYear
     };
-    console.log('movieName:', $scope.movieName + ' ' + $scope.movieYear);
     $scope.myMovies.push(favMovies);
-    console.log('movie array:', $scope.myMovies);
+    $scope.movieName='';
+    $scope.movieYear='';
+    //console.log('movie array:', $scope.myMovies);
   };//end getMovieName
 }]);
