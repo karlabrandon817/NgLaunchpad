@@ -1,12 +1,11 @@
 var myApp = angular.module( 'myApp', []);
-var myMovies = [];
-myApp.controller('LaunchpadControler', ['$scope', function($scope){
-  console.log('NG');
+
+myApp.controller('LaunchpadController', ['$scope', function($scope){
+  $scope.myMovies = [];
   $scope.getMovieName = function(){
     console.log('in getMovieName()');
     console.log('movieName:', $scope.movieName);
-    myMovies.push($scope.movieName);
-    console.log('movie array:', myMovies);
-    $scope.myMovies = myMovies;
+    $scope.myMovies.push($scope.movieName);
+    console.log('movie array:', $scope.myMovies);
   };//end getMovieName
 }]);
